@@ -1,0 +1,72 @@
+.orgchartcustomized .orgchart {
+    background-image: none;
+    border: none;
+}
+
+    .orgchartcustomized .orgchart .lines .topLine {
+        border-top-color: darkgray;
+    }
+
+    .orgchartcustomized .orgchart .lines .leftLine {
+        border-left-color: darkgray;
+    }
+
+    .orgchartcustomized .orgchart .lines .rightLine {
+        border-right-color: darkgray;
+    }
+
+    .orgchartcustomized .orgchart .lines .downLine {
+        background-color: darkgray;
+    }
+
+    .orgchartcustomized .orgchart .verticalNodes > td::before {
+        border-color: darkgray;
+    }
+
+    .orgchartcustomized .orgchart .verticalNodes ul > li::before {
+        border-color: darkgray;
+    }
+
+    .orgchartcustomized .orgchart .verticalNodes ul > li::after {
+        border-color: darkgray;
+    }
+
+    .orgchartcustomized .orgchart .node .title .symbol {
+        display: none;
+    }
+
+    .orgchartcustomized .orgchart .node .toggleBtn::before {
+        background-color: darkgray;
+    }
+
+    .orgchartcustomized .orgchart .node .title {
+        color: black;
+        background-color: lightgray;
+        border: 1px solid lightgray;
+        border-radius: 10px 10px 0 0;
+        padding: 5px;
+        width: 100%;
+        height: 100%;
+}
+
+    .orgchartcustomized .orgchart .node .content {
+        width: 100%;
+        height: 100%;
+        font-size: 14px;
+        line-height: 24px;
+        border: 1px solid lightgray;
+        border-radius: 0 0 10px 10px;
+        padding: 5px;
+        text-align: center;
+        background-color: white;
+        color: black;
+        overflow: hidden;
+        text-overflow: clip ellipsis;
+        white-space: pre-wrap;
+    }
+
+button.oc-export-btn {
+    background-color: white;
+    color: darkgray;
+    border-color: darkgray;
+}
