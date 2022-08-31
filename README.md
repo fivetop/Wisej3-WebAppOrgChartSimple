@@ -1,6 +1,7 @@
 # Wisej3-WebAppOrgChartSimple
 wisej 3.0 jquery &amp; cdn 
 
+https://ko.wordpress.org/plugins/simple-org-chart/
 
 ![image](https://user-images.githubusercontent.com/50413/187351215-8380051f-2e15-4a15-9af0-b4c7c1ddf980.png)
 
